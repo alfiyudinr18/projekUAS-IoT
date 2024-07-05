@@ -23,5 +23,7 @@ class DatabaseSeeder extends Seeder
         Led::create([
             "ledState" => 0
         ]);
+        $this->call(DHT11Seeder::class);
+        // $this->call(WebiotSeeder::class);
     }
 }
