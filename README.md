@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## About Laravel and NodeMCU ESP8266
 
 This project for your testing connection between NodeMCU ESP8266 to Laravel as server. Focus point in this project is how to make connection between NodeMCU ESP8266 to Laravel as server therefore in this project just make a switch for turnon / turnoff led. this project made using JQuery for AJAX to server, MySQL for database and Bootstrap for UI. lets install this project before you run.
@@ -34,3 +35,6 @@ http.begin(client, url); <br>
 String response = http.getString();<br>
 
 now just execute response for HIGH, and LOW led
+=======
+# projekUAS-IoT
+>>>>>>> f9e4a9d8cced07a5d787c96c5baa79f27d1238b8
